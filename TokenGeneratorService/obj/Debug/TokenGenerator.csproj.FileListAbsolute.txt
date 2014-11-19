@@ -1,0 +1,10 @@
+C:\Training\Azure\AzurePOC\TokenGeneratorService\obj\Debug\TokenGenerator.csprojResolveAssemblyReference.cache
+C:\Training\Azure\AzurePOC\TokenGeneratorService\bin\Debug\TokenGeneratorService.exe.config
+C:\Training\Azure\AzurePOC\TokenGeneratorService\bin\Debug\TokenGeneratorService.exe
+C:\Training\Azure\AzurePOC\TokenGeneratorService\bin\Debug\TokenGeneratorService.pdb
+C:\Training\Azure\AzurePOC\TokenGeneratorService\obj\Debug\TokenGeneratorService.exe
+C:\Training\Azure\AzurePOC\TokenGeneratorService\obj\Debug\TokenGeneratorService.pdb
+C:\Training\Azure\AzurePOC\TokenGeneratorService\bin\Debug\Microsoft.ServiceBus.dll
+C:\Training\Azure\AzurePOC\TokenGeneratorService\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+C:\Training\Azure\AzurePOC\TokenGeneratorService\bin\Debug\Microsoft.ServiceBus.xml
+C:\Training\Azure\AzurePOC\TokenGeneratorService\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
