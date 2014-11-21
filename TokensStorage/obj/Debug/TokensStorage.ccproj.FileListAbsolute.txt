@@ -1,2 +1,0 @@
-C:\Training\Azure\AzurePOC\TokensStorage\bin\Debug\ServiceConfiguration.cscfg
-C:\Training\Azure\AzurePOC\TokensStorage\bin\Debug\ServiceDefinition.csdef

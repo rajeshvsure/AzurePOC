@@ -59,3 +59,5 @@ C:\Training\Azure\AzurePOC\ProcessTokensWorkerRole\bin\Debug\zh-Hans\System.Spat
 C:\Training\Azure\AzurePOC\ProcessTokensWorkerRole\bin\Debug\zh-Hant\System.Spatial.resources.dll
 C:\Training\Azure\AzurePOC\ProcessTokensWorkerRole\obj\Debug\ProcessTokensWorkerRole.dll
 C:\Training\Azure\AzurePOC\ProcessTokensWorkerRole\obj\Debug\ProcessTokensWorkerRole.pdb
+C:\Training\Azure\AzurePOC\ProcessTokensWorkerRole\bin\Debug\TokensEntities.dll
+C:\Training\Azure\AzurePOC\ProcessTokensWorkerRole\bin\Debug\TokensEntities.pdb

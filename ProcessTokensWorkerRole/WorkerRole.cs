@@ -9,19 +9,20 @@ using Microsoft.ServiceBus.Messaging;
 using Microsoft.WindowsAzure;
 using Microsoft.WindowsAzure.ServiceRuntime;
 using System.ServiceModel;
-using TokenProcessingWorkerRole;
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Table;
+using TokensEntities.Model;
+using TokensEntities.DataEnitites;
 
 
 namespace ProcessTokensWorkerRole
 {
     public class WorkerRole : RoleEntryPoint
     {
-        // Declare the channel factory
-        static ChannelFactory<ITokenChannel> channelFactory;
         // The name of your queue
         const string QueueName = "TokensQueue";
+
+        const string TableName = "TokenStore";
 
         // QueueClient is thread-safe. Recommended that you cache 
         // rather than recreating it on every request
@@ -49,7 +50,7 @@ namespace ProcessTokensWorkerRole
                         CloudTableClient tableClient = storageAccount.CreateCloudTableClient();
 
                         // Create the table if it doesn't exist.
-                        CloudTable table = tableClient.GetTableReference("Tokens");
+                        CloudTable table = tableClient.GetTableReference(TableName);
 
                         TableOperation insertOperation = TableOperation.Insert(token);
                         table.Execute(insertOperation);
@@ -102,7 +103,7 @@ namespace ProcessTokensWorkerRole
             CloudTableClient tableClient = storageAccount.CreateCloudTableClient();
 
             // Create the table if it doesn't exist.
-            CloudTable table = tableClient.GetTableReference("Tokens");
+            CloudTable table = tableClient.GetTableReference(TableName);
             table.CreateIfNotExists();
             return base.OnStart();
         }

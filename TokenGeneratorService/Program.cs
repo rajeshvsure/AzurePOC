@@ -8,6 +8,8 @@ using Microsoft.WindowsAzure;
 using Microsoft.ServiceBus;
 using Microsoft.ServiceBus.Messaging;
 using System.Threading;
+using TokensEntities;
+using TokensEntities.Model;
 
 namespace TokenGenerator
 {
